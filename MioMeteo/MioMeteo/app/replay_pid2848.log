@@ -1,0 +1,22 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 103 ciObject found
+ciMethod java/lang/String compareTo (Ljava/lang/String;)I 1505 40113 1135 0 -1
+ciMethod java/lang/Math min (II)I 3081 1 7812 0 -1
+ciMethodData java/lang/String compareTo (Ljava/lang/String;)I 2 21553 orig 264 216 160 114 102 0 0 0 0 0 74 25 20 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 19 0 0 209 29 0 0 217 4 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 104 0 0 0 255 255 255 255 2 0 14 0 0 0 0 0 data 13 0xe0002 0x3ba 0x260007 0x1cc 0x58 0x4286 0x3b0007 0x409b 0x20 0x1ec 0x470003 0x409a 0xffffffffffffffc0 oops 0
+instanceKlass com/android/dx/cf/attrib/InnerClassList$Item
+instanceKlass sun/nio/ch/Interruptible
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass com/android/dx/dex/file/EncodedMember
+instanceKlass com/android/dx/dex/file/AnnotationUtils
+instanceKlass com/android/dx/dex/file/ValueEncoder
+instanceKlass com/android/dx/dex/file/AnnotationItem$TypeIdSorter
+instanceKlass java/util/TreeMap$PrivateEntryIterator
+instanceKlass java/util/Collections$UnmodifiableCollection$1
+instanceKlass com/android/dx/dex/cf/AttributeTranslator
+instanceKlass com/android/dx/dex/cf/OptimizerOptions
+instanceKlass com/android/dx/rop/code/TranslationAdvice
+instanceKlass com/android/dx/dex/code/DalvCode$AssignIndicesCallback
+instanceKlass com/android/dx/dex/cf/CfTranslator
+instanceKlass com/android/dx/rop/type/Prototype

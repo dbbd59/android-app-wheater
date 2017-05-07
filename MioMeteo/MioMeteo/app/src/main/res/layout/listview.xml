@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/meteoIconaIV"
+        android:src="@drawable/na"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/temperaturaTV"
+        android:layout_toStartOf="@+id/temperaturaTV"
+        android:layout_marginBottom="130dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/meteoIconaIV"
+        android:layout_alignParentLeft="true">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/dataTV"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignEnd="@+id/listView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/cittàTV"
+        android:layout_below="@+id/dataTV"
+        android:layout_alignRight="@+id/dataTV"
+        android:layout_alignEnd="@+id/dataTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/temperaturaTV"
+        android:layout_below="@+id/cittàTV"
+        android:layout_alignRight="@+id/dataTV"
+        android:layout_alignEnd="@+id/dataTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/condizioneTV"
+        android:layout_below="@+id/temperaturaTV"
+        android:layout_alignRight="@+id/dataTV"
+        android:layout_alignEnd="@+id/dataTV" />
+
+</RelativeLayout>

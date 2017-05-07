@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="giorno">Day</string>
+    <string name="temperatura">Temperature</string>
+    <string name="condizione">Condition</string>
+    <string name="città">City</string>
+    <string name="loading">Loading...</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
